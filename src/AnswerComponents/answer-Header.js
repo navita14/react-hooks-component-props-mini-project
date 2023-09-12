@@ -1,11 +1,10 @@
-import React from "react";
+import React from "react"
 
-export default function Header(props){
-    return (
+export default function Header({name}){
+    return(
         <header>
-            <h1>{props.name}</h1>
-            {/* {props.author ? <Details author={props.author}/> : <h2>no author</h2>} */}
+          <h1>{name}</h1>
         </header>
-
     )
-}
+  }
+  
